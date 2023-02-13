@@ -1,0 +1,92 @@
+{
+  "data": {
+      "coord": {
+          "lon": -79.4163,
+          "lat": 43.7001
+      },
+      "weather": [
+          {
+              "id": 601,
+              "main": "Snow",
+              "description": "snow",
+              "icon": "13d"
+          }
+      ],
+      "base": "stations",
+      "main": {
+          "temp": 261.46,
+          "feels_like": 254.46,
+          "temp_min": 258.21,
+          "temp_max": 263.24,
+          "pressure": 1031,
+          "humidity": 81
+      },
+      "visibility": 4828,
+      "wind": {
+          "speed": 5.14,
+          "deg": 160
+      },
+      "snow": {
+          "1h": 0.51
+      },
+      "clouds": {
+          "all": 100
+      },
+      "dt": 1675526040,
+      "sys": {
+          "type": 1,
+          "id": 718,
+          "country": "CA",
+          "sunrise": 1675513876,
+          "sunset": 1675549910
+      },
+      "timezone": -18000,
+      "id": 6167865,
+      "name": "Toronto",
+      "cod": 200
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+      "content-length": "484",
+      "content-type": "application/json; charset=utf-8"
+  },
+  "config": {
+      "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+      },
+      "adapter": [
+          "xhr",
+          "http"
+      ],
+      "transformRequest": [
+          null
+      ],
+      "transformResponse": [
+          null
+      ],
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {},
+      "headers": {
+          "Accept": "application/json, text/plain, */*"
+      },
+      "method": "get",
+      "url": "https://api.openweathermap.org/data/2.5/weather?lat=43.70011000&lon=-79.41630000&appid=ef97f7467037779c7bbc14d73e03457e"
+  },
+  "request": {}
+}
+
+
+{
+    "name": "Scarborough",
+    "countryCode": "AU",
+    "stateCode": "WA",
+    "latitude": "-31.89578000",
+    "longitude": "115.76431000"
+  }

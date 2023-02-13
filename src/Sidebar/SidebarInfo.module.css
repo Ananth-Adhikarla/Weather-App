@@ -1,0 +1,121 @@
+.card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.sidebarIcon{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+}
+
+.sidebarIcon img{
+  width: 75%;
+  height: 75%;
+}
+
+.temprature {
+  font-size: 4rem;
+  font-weight: 800;
+  position: relative;
+  top: -20px;
+}
+
+.degree {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.currentStatus {
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+  top: -30px;
+}
+
+.currentCity {
+  font-size: 1rem;
+  font-weight: 400;
+  position: relative;
+  top: -30px;
+}
+
+.currentTime {
+  font-size: 0.625rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  position: relative;
+  top: -20px;
+}
+
+.changeMetrics {
+  margin-top: auto;
+  font-size: 0.675rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.changeMetrics:hover {
+  cursor: pointer;
+  color: #8484df;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .temprature {
+    font-size: 4rem;
+  }
+  
+  .degree {
+    font-size: 2rem;
+  }
+
+  .currentStatus {
+    font-size: 2rem;
+  }
+
+  .currentCity {
+    font-size: 1.5rem;
+  }
+
+  .currentTime {
+    font-size: 0.625rem;
+  }
+
+  .changeMetrics {
+    font-size: 0.775rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .temprature {
+    font-size: 5rem;
+  }
+  
+  .degree {
+    font-size: 2.5rem;
+  }
+
+  .currentStatus {
+    font-size: 3rem;
+  }
+
+  .currentCity {
+    font-size: 2rem;
+  }
+
+  .currentTime {
+    font-size: 0.725rem;
+  }
+
+  .changeMetrics {
+    font-size: 0.875rem;
+  }
+}

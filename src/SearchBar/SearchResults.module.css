@@ -1,0 +1,26 @@
+.searchResult {
+  display: flex;
+  width: 100%;
+  color: white;
+  margin-top: 5px;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.searchResultBox {
+  width: 100%;
+  background-color: #1e1d1de6;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: inset 0px 3px 6px 0px #8f8f8f;
+  display: flex;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}

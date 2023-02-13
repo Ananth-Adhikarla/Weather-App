@@ -1,0 +1,70 @@
+.card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #161616;
+  color: white;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 50%;
+}
+
+.temprature {
+  display: flex;
+  flex-direction: column;
+}
+
+.high {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.high .degree {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.low {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.low .degree {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/*
+  CARD SMALL
+*/
+
+.cardSmall{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #161616;
+  color: white;
+}
+
+.smalltitle {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.degree {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-left: 3px;
+}

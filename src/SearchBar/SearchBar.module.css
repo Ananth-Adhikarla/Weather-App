@@ -1,0 +1,106 @@
+.container {
+  background-color: transparent;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.search {
+  width: 100%;
+  border: 2px solid #302f2f7a;
+  border-radius: 2em;
+  overflow: hidden;
+  font-size: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.search:focus-within {
+  box-shadow: 0 1px 5px 2px #767272;
+}
+
+.search_button,
+.search_input {
+  background-color: #121212;
+  border: none;
+  outline: none;
+  color: #FFF;
+}
+
+.search_input {
+  padding: 0.5em 1em;
+  width: 85%;
+}
+
+.search_button {
+  width: 15%;
+  font-size: 0.75rem;
+  padding-right: 0.5em;
+  color: #9CA3AF;
+  display: grid;
+  place-content: center;
+  border-left: 2px solid #302f2f7a;
+}
+
+.search_button:hover {
+  background: #9CA3AF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.errorText {
+  color: #e1d8d8;
+  font-size: 0.725rem;
+  font-weight: 200;
+  display: none;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.fadeIn {
+  display: block;
+	/* opacity: 0; */
+	animation-name: fadeInOpacity;
+	animation-timing-function: ease-in;
+	animation-duration: 0.215s;
+}
+
+@keyframes fadeInOpacity {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* @keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .search {
+    font-size: 1.5rem;
+  }
+
+  .search_button {
+    font-size: 0.85rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .search {
+    font-size: 2rem;
+  }
+
+  .search_button {
+    font-size: 1rem;
+  }
+}
+
+

@@ -1,0 +1,13 @@
+.dataItem {
+  font-size: 0.75rem;
+  color: #d2e3e9;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-weight: 200;
+}
+
+.dataItem:hover {
+  cursor: pointer;
+  color: #e3edf0;
+  background: rgba(255, 255, 255, 0.044);
+}
